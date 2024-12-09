@@ -1,0 +1,13 @@
+id,question,ground_truth
+1,"Explain the difference between the Data and Message objects in Langflow. How are they used to pass information between components, and what are their main characteristics?",
+2,"Describe the process of creating a custom component in Langflow. What are the main methods that need to be implemented, and how do they affect the component's functionality?",
+3,"How does the ""tweaks"" system work in Langflow? Explain how tweaks allow the dynamic modification of component parameters during flow execution. 
+Additionally, describe how to dynamically adjust the `max_tokens` parameter in a language model component, allowing control over the length of the generated response.",
+4,"Explain how the ParseDataComponent works in Langflow. How can it be used to extract specific information from a Data object?",
+5,"How can you implement memory and individual session management for each user in Langflow using the concept of `session_id`?
+Explain how this affects context persistence, especially in multi-user applications, ensuring that the conversation history and state are properly maintained for each session.",
+6,"Describe the process of creating and using ""Global Variables"" in Langflow. What is their purpose, and how can they be applied in different types of flows?",
+7,"Detail the functionality of the Prompt component in Langflow. How does it use variables within templates, and what types of data can be connected to it?",
+8,"Describe the process of creating a custom tool (Tool) as a component in Langflow using StructuredTool. Provide a practical example of how to implement a calculator as a Tool.",
+9,"Compare the ChatInput, TextInput, and FileInput components in Langflow. What are their main differences, and in what situations is each more appropriate?",
+10,"How does the Split Text component in Langflow handle text chunking, and what parameters can be used to customize the splitting process?",
